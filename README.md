@@ -3,9 +3,9 @@ Small repo to test/practice git workflow
 
 ### Set up a user
 
-`git config --global user.name "Your Name"`
-`git config --global user.email "your@email.email"`
-`git config --list` - to see if values have been set up 
+- `git config --global user.name "Your Name"`
+- `git config --global user.email "your@email.email"`
+- `git config --list` - to see if values have been set up 
 
 ### Useful git commands
 
@@ -38,8 +38,8 @@ Extra commands:
 
 It rebases the branch against a previous commit and gives you options to alter the outcome.
 
-`git rebase -i HEAD~<number of commits you'd like to include>`
-`git rebase -i <last commit's hash before the commit you would like to include>`
+- `git rebase -i HEAD~<number of commits you'd like to include>`
+ - `git rebase -i <last commit's hash before the commit you would like to include>`
 
 The command list on the interactive rebase file:
 
